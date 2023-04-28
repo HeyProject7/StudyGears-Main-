@@ -1,0 +1,8 @@
+1.  .env file
+2.  require('crypto').randomBytes(64).toString('hex')
+3.  2d008d1cdd1266c233e1314b21a0a7d146f372dc60461f11c386995d4306a7d70a8119eee8358fde273d9e7c9f566a70f8738b7e9b7d9e564b53a190cd53b27b
+4. again 3. For Refersh Token
+5. Login.js
+    const jwt = require('jsonwebtoken');
+    require('dotenv').config()
+    if we use cookie in httpOnly Then It Is Not Availavle By Js So We send accessToken In cookie

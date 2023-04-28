@@ -1,0 +1,18 @@
+
+28/31/2023	ab583e2e-2a46-441f-a74c-8d0f4b47e3a2 	 GET	 undefined	/ logged
+28/31/2023	27eba95a-5a25-43f5-b289-a46ed01907e1 	 GET	 undefined	/css/style.css logged
+28/31/2023	30378825-d3f1-43f6-8239-134447c57ee0 	 GET	 undefined	/main.js logged
+28/31/2023	50e3ef00-bfc6-4499-bfa4-c1dca12fe979 	 GET	 undefined	/images/coinMe_prev_ui%20(2).png logged
+28/31/2023	be6c0336-55d8-42ce-ba1a-ea3fd176301a 	 GET	 undefined	/images/top__image2.avif logged
+28/31/2023	34b93809-55b5-4ecb-84e3-ec9487fec288 	 GET	 undefined	/images/course_1.png logged
+28/31/2023	2900117b-8f24-49cc-a1d1-99ad2bbf94b5 	 GET	 undefined	/images/course_2.png logged
+28/31/2023	ed952e8a-4c07-4cb8-aab7-01fe8a9c99f6 	 GET	 undefined	/images/course_3.webp logged
+28/31/2023	68b873f4-92cc-4a6d-a596-d6fbbec5b387 	 GET	 undefined	/images/testinomials__user.jpg logged
+28/31/2023	2e2691f1-f058-4ef7-ac77-076f69a400eb 	 GET	 undefined	/images/testinomials__user1.jpg logged
+28/31/2023	468d17fc-be59-4898-a2f3-1fbe382c0217 	 GET	 undefined	/images/testinomials__user2.jpg logged
+28/31/2023	6e616260-966f-4cf7-ada5-1ce00af95cbd 	 GET	 undefined	/public/images/login__user2.png logged
+28/31/2023	f2bb9181-5b71-4a79-bb8e-b24a49dcf073 	 GET	 undefined	/public/images/person.png logged
+28/31/2023	950dbe58-1a97-46b7-8f54-955a8e6ccdd8 	 GET	 undefined	/videos/plue.mp4 logged
+28/31/2023	453e3953-cb0c-42d9-b070-5969166990bb 	 GET	 undefined	/videos/plue.mp4 logged
+28/31/2023	21617955-ec0a-44a8-a736-6a1090b04428 	 GET	 undefined	/videos/plue.mp4 logged
+28/31/2023	952c1b26-ed73-4531-a1fe-957ed4715e70 	 GET	 undefined	/public/images/login__user2.png logged
