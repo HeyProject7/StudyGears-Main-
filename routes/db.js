@@ -1,3 +1,8 @@
+const express = require('express');
+const router = express.Router();
+const ThirdEyeMode = require('../model/ThirdEyeMode');
+const ThirdEyeLang = require('../model/ThirdEyeLang');
+const ThirdEyeData = require('../model/ThirdEyeData');
 // Route to switch the mode
 router.get('/switchmode/:ob', async (req, res) => {
     try {
@@ -93,5 +98,9 @@ router.get('/getobject', async (req, res) => {
         res.status(500).send("Error getting object from database.");
     }
 });
+
+module.exports = router;
+
+
 
 module.exports = router;
