@@ -77,7 +77,7 @@ app.use('/accessToken', require('./routes/accessToken'));
 app.use('/dashboard', require('./routes/dashboard'));
 app.use('/db', require('./routes/db'));
 
-app.use(verifyJwt) // like waterfalll everything after this will use verifyJwt
+// app.use(verifyJwt) // like waterfalll everything after this will use verifyJwt
 
 app.use('/employee', require('./routes/api/employee'))
 
