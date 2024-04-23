@@ -1,16 +1,13 @@
-const express = require('express');
-const router = express.Router();
-const ThirdEyeMode = require('../model/ThirdEyeMode');
-const ThirdEyeLang = require('../model/ThirdEyeLang');
-const ThirdEyeData = require('../model/ThirdEyeData');
-
 // Route to switch the mode
 router.get('/switchmode/:ob', async (req, res) => {
-    const ob = req.params.ob;
-
-    console.log("Received mode:", ob);
-
     try {
+        const ob = req.params.ob;
+        if (!ob) {
+            throw new Error("Mode parameter is missing");
+        }
+
+        console.log("Received mode:", ob);
+
         const result = await ThirdEyeMode.create({
             "currentmode": ob
         });
@@ -24,11 +21,14 @@ router.get('/switchmode/:ob', async (req, res) => {
 
 // Route to switch the language
 router.get('/switchlang/:lang', async (req, res) => {
-    const lang = req.params.lang;
-
-    console.log("Received lang:", lang);
-
     try {
+        const lang = req.params.lang;
+        if (!lang) {
+            throw new Error("Language parameter is missing");
+        }
+
+        console.log("Received lang:", lang);
+
         const result = await ThirdEyeLang.create({
             "currentlang": lang
         });
@@ -42,11 +42,14 @@ router.get('/switchlang/:lang', async (req, res) => {
 
 // Route to store an object name
 router.get('/storeobject/:object', async (req, res) => {
-    const object = req.params.object;
-
-    console.log("Received object:", object);
-
     try {
+        const object = req.params.object;
+        if (!object) {
+            throw new Error("Object parameter is missing");
+        }
+
+        console.log("Received object:", object);
+
         const result = await ThirdEyeData.create({
             "object_name": object
         });
@@ -90,7 +93,5 @@ router.get('/getobject', async (req, res) => {
         res.status(500).send("Error getting object from database.");
     }
 });
-
-
 
 module.exports = router;
