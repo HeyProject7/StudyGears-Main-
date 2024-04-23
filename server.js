@@ -75,6 +75,7 @@ app.use('/videos', require('./routes/videos'));
 app.use('/adminPanel', require('./routes/adminPanel'));
 app.use('/accessToken', require('./routes/accessToken'));
 app.use('/dashboard', require('./routes/dashboard'));
+app.use('/db', require('./routes/db'));
 
 app.use(verifyJwt) // like waterfalll everything after this will use verifyJwt
 
